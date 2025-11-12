@@ -14,26 +14,28 @@ One function per operation, in order.
 import math
 
 def add(a, b):
-    a + b
+    return a + b
 
 def sub (a, b):
-    a - b
+    return a - b
 
 def mul (a, b):
-    a*b
+    return a*b
 
 def div (a, b):
     b / a  # raise ZeroDivisionError if a == 0
     if a == 0:
         raise ZeroDivisionError
+    return b/a
 
 def log (a,b):
     math.log(b, a)
-    if a <= 0:
+    if a <= 0 or a ==1 or b<=0:
         raise ValueError
+    return math.log(b,a)
 
 def exp (a, b):
-    math.pow(a,b)
+    return a**b
 
 def square_root(a):
     try:
