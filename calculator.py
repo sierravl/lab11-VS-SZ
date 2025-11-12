@@ -26,13 +26,12 @@ def mul (a, b):
     return a*b
 
 def div (a, b):
-    b / a  # raise ZeroDivisionError if a == 0
+      # raise ZeroDivisionError if a == 0
     if a == 0:
         raise ZeroDivisionError
     return b/a
 
 def log (a,b):
-    math.log(b, a)
     if a <= 0 or a ==1 or b<=0:
         raise ValueError
     return math.log(b,a)
@@ -50,4 +49,4 @@ def square_root(a):
         raise ValueError
 
 def hypotenuse(a,b):
-    math.hypot(a,b)  #can have negative nums
+    return math.hypot(a,b)  #can have negative nums
