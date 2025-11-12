@@ -23,9 +23,9 @@ def div (a, b):
 
 
 def log (a,b):
-    math.loga(b)
-    if a == 0:
-        raise ZeroDivisionError
+    math.log(b, a)
+    if a <= 0:
+        raise ValueError
 
 def exp (a, b):
     math.pow(a,b)
