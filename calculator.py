@@ -21,7 +21,6 @@ def div (a, b):
     if a == 0:
         raise ZeroDivisionError
 
-
 def log (a,b):
     math.log(b, a)
     if a <= 0:
@@ -37,5 +36,4 @@ def square_root(a):
         raise ValueError
 
 def hypotenuse(a,b):
-    try:
-        math.hypot(a,b)  #can have negative nums
+    math.hypot(a,b)  #can have negative nums
