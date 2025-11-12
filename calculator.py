@@ -30,9 +30,6 @@ def log (a,b):
 def exp (a, b):
     math.pow(a,b)
 
-
-import math
-
 def square_root(a):
     try:
         math.sqrt(a)
@@ -42,20 +39,3 @@ def square_root(a):
 def hypotenuse(a,b):
     try:
         math.hypot(a,b)  #can have negative nums
-
-def add(a, b): 
-    a + b
-
-def sub(a, b):
-    a - b
-
-def mul(a, b):
-    a * b
-
-def log(a, b):
-    math.log(b, a)
-    if b <= 0:
-        raise ValueError
-
-def exp(a,b):
-    math.pow(a, b)
