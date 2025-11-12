@@ -1,7 +1,7 @@
 import unittest
 import unittest
 import math
-from calculator import add, sub, div, log
+from calculator import *
 
 class TestCalculator(unittest.TestCase):
     ######### Partner 2
