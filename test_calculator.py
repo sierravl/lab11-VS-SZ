@@ -1,3 +1,7 @@
+# https://github.com/sierravl/lab11-VS-SZ.git
+# Partner 1: Vanessa Sierra
+# Partner 2: Sophie Zalamar
+
 import unittest
 import unittest
 import math
