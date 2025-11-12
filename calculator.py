@@ -21,7 +21,6 @@ def div (a, b):
     if a == 0:
         raise ZeroDivisionError
 
-
 def log (a,b):
     math.log(b, a)
     if a <= 0:
@@ -30,22 +29,11 @@ def log (a,b):
 def exp (a, b):
     math.pow(a,b)
 
-
-import math
-
-def add(a, b): 
-    a + b
-
-def sub(a, b):
-    a - b
-
-def mul(a, b):
-    a * b
-
-def log(a, b):
-    math.log(b, a)
-    if b <= 0:
+def square_root(a):
+    try:
+        math.sqrt(a)
+    except a < 0:
         raise ValueError
 
-def exp(a,b):
-    math.pow(a, b)
+def hypotenuse(a,b):
+    math.hypot(a,b)  #can have negative nums
