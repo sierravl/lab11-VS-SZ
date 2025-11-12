@@ -1,3 +1,7 @@
+# https://github.com/sierravl/lab11-VS-SZ.git
+# Partner 1: Vanessa Sierra
+# Partner 2: Sophie Zalamar
+
 """
 calculator.py
 - Defines functions used to create a simple calculator
@@ -5,9 +9,7 @@ calculator.py
 One function per operation, in order.
 """
 
-# https://github.com/sierravl/lab11-VS-SZ.git
-# Partner 1: Vanessa Sierra
-# Partner 2: Sophie Zalamar
+
 # First example
 import math
 
