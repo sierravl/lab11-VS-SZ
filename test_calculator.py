@@ -3,7 +3,6 @@
 # Partner 2: Sophie Zalamar
 
 import unittest
-import unittest
 import math
 from calculator import *
 
