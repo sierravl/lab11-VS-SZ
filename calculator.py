@@ -48,4 +48,4 @@ def square_root(a):
         raise ValueError
 
 def hypotenuse(a,b):
-    return round(math.hypot(a,b))  #can have negative nums
+    return int(math.hypot(a,b))  #can have negative nums
