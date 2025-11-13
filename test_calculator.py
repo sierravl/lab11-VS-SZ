@@ -1,6 +1,10 @@
 import unittest
 from calculator import *
 
+# https://github.com/sierravl/lab11-VS-SZ.git
+# Partner 1: Vanessa Sierra
+# Partner 2: Sophie Zalamar
+
 class TestCalculator(unittest.TestCase):
     ######### Partner 2
     # def test_add(self): # 3 assertions
