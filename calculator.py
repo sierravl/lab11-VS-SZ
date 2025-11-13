@@ -26,9 +26,9 @@ def mul (a, b):
 
 def div (a, b):
       # raise ZeroDivisionError if a == 0
-    if b == 0:
+    if a == 0:
         raise ZeroDivisionError
-    return a/b
+    return b/a
 
 def log (a,b):
     if a <= 0 or a ==1 or b<=0:
@@ -43,9 +43,9 @@ def exp (a, b):
 
 def square_root(a):
     try:
-        math.sqrt(a)
-    except a < 0:
+        return math.sqrt(a)
+    except ValueError:
         raise ValueError
 
 def hypotenuse(a,b):
-    return math.hypot(a,b)  #can have negative nums
+    return round(math.hypot(a,b))  #can have negative nums
